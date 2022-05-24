@@ -21,11 +21,11 @@ const drawList = (value, info, content) => {
     let posval = document.createElement('div')
     let desc = document.createElement('div')
     pos.classList.add('pos')
-    posval.classList.add('desc')
+    posval.classList.add('posval')
     desc.classList.add('desc')
     pos.innerText = info
     posval.innerText = `${info.split(' ')[0]} value: ${value}`
-    desc.innerText = `Description: ${content}`
+    desc.innerText = content
     infolist.appendChild(li)
     li.appendChild(pos)
     li.appendChild(posval)

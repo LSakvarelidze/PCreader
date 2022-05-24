@@ -54,13 +54,22 @@ input {
     font-size: 1.3rem;
     font-weight: bold;
 }
-
-.pos {
+.posval {
+    font-size: 0.8rem;
+    color: #0078D4;
     font-weight: bold;
 }
 
+.pos {
+    font-weight: bold;
+    color: #0078D4;
+    font-size: 0.9rem;
+}
+
 .desc {
-    font-size: 0.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #003E6E;
 }
 
 ul {
@@ -72,4 +81,9 @@ li {
     margin-bottom: 2rem;
     margin-right: 2rem;
     width: 20%;
+    min-width: 300px;
+    border: 1px solid #333;
+    align-self: stretch;
+    padding: 1rem;
+    border-radius: 5px;
 }
