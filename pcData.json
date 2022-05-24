@@ -1,0 +1,131 @@
+{
+    "Position1": {
+        "info": "Position 1 – Card data input capability",
+        "0": "unknown (not suggested)",
+        "1": "manual, no terminal (not applicable for POS)",
+        "2": "magnetic stripe ( no smart card read capability)",
+        "3": "bar code read (not suggested)",
+        "4": "OCR (Optical Character Recognition) coding reader (not suggested)",
+        "5": "smart card read (with or without magnetic stripe read capability)",
+        "6": "key entry only (no smart card read and no magnetic stripe read capability)",
+        "A": "contactless magnetic-stripe read",
+        "M": "contactless smart card read"
+    },
+    "Position2": {
+        "info": "Position 2 – Cardholder authentication capability",
+        "0": "no electronic authentication (signature based transactions or no authentication at all)",
+        "1": "PIN verification possible (off-line and/or on-line)",
+        "2": "electronic signature analysis",
+        "5": "electronic authentication inoperative (i.e. PIN pad damaged)",
+        "9": "unknown (not suggested)"
+    },
+    "Position3": {
+        "info": "Position 3 – Card capture capability",
+        "0": "none",
+        "1": "capture",
+        "9": "unknown (not suggested)"
+    },
+    "Position4": {
+        "info": "Position 4 – Operating environment",
+        "0": "no terminal used (not applicable for POS)",
+        "1": "on premises of card acceptor, attended",
+        "2": "on premises of card acceptor, unattended",
+        "3": "off premises of card acceptor, attended",
+        "4": "off premises of card acceptor, unattended",
+        "5": "on premises of card holder, unattended",
+        "6": "off premises of cardholder, unattended",
+        "9": "unknown (not suggested)",
+        "S": "CAT (Cardholder Activated Terminal) level 1, unattended",
+        "T": "CAT level 2, unattended",
+        "U": "CAT level 3, unattended",
+        "V": "CAT level 4, unattended",
+        "W": "Electronic delivery of product (AmEx transactions’ transmission only)",
+        "Y": "Physical delivery of product (AmEx transactions’ transmission only)",
+        "Z": "Transit Access Terminal – TAT",
+        "M": "Mobile acceptance solution (mPOS)"
+    },
+    "Position5": {
+        "info": "Position 5 – Cardholder present",
+        "0": "cardholder present",
+        "1": "cardholder not present, unspecified",
+        "2": "cardholder not present, mail order",
+        "3": "cardholder not present, telephone",
+        "4": "cardholder not present, stand-in authorization or recurring payment",
+        "5": "cardholder not present, electronic order",
+        "9": "unknown (not suggested)"
+    },
+    "Position6": {
+        "info": "Position 6 – Card present",
+        "0": "card not present",
+        "1": "card present",
+        "9": "unknown (not suggested)"
+    },
+    "Position7": {
+        "info": "Position 7 – Card data input mode",
+        "0": "unspecified (not suggested)",
+        "1": "manual, no terminal (not applicable for POS)",
+        "2": "magnetic stripe read[2]",
+        "3": "bar code read (not suggested)",
+        "4": "OCR coding read (not suggested)",
+        "5": "smart card read",
+        "6": "key entered",
+        "8": "magnetic stripe read in fallback to smart card read",
+        "9": "full magnetic stripe read (preferable for POS terminals)[3]",
+        "A": "contactless magnetic-stripe read",
+        "M": "contactless smart card read",
+        "N": "PayPass mapping service",
+        "R": "PAN entry via electronic commerce, including remote chip",
+        "S": "electronic commerce, SET without cardholder certificate (“merchant SET”)",
+        "T": "electronic commerce, SET with cardholder certificate (“full SET”)",
+        "U": "electronic commerce, no security (Non-initial recurring payment transaction without 3D)",
+        "V": "electronic commerce, channel encryption (e.g. SSL)",
+        "W": "PAN Auto Entry via Server"
+    },
+    "Position8": {
+        "info": "Position 8 – Cardholder authentication method",
+        "0": "not authenticated",
+        "1": "PIN verified on-line or off-line",
+        "2": "electronic signature analysis",
+        "5": "manual signature verification",
+        "6": "other manual verification (e.g., drivers license photo and signature comparison)",
+        "9": "unknown (not suggested)"
+    },
+    "Position9": {
+        "info": "Position 9 – Cardholder authentication entity",
+        "0": "not authenticated (through telephone)",
+        "1": "smart card (off-line PIN verification using smart card data)",
+        "3": "authorization agent (e.g. performing on-line PIN verification)",
+        "4": "by merchant (e.g. performing signature comparison)",
+        "5": "other (e.g. non-smart card off-line PIN verification)",
+        "9": "unknown (not suggested)"
+    },
+    "Position10": {
+        "info": "Position 10 – Card data output capability",
+        "0": "unknown (not suggested)",
+        "1": "none",
+        "2": "magnetic stripe write",
+        "3": "smart card write"
+    },
+    "Position11": {
+        "info": "Position 11 – Terminal output capability",
+        "0": "unknown (not suggested)",
+        "1": "none",
+        "2": "printing",
+        "3": "display",
+        "4": "printing and display"
+    },
+    "Position12": {
+        "info": "Position 12 – PIN capture capability",
+        "0": "no PIN capture capability",
+        "1": "unknown (not suggested)",
+        "4": "four characters",
+        "5": "five characters",
+        "6": "six characters",
+        "7": "seven characters",
+        "8": "eight characters",
+        "9": "nine characters",
+        "A": "ten characters",
+        "B": "eleven digits",
+        "C": "twelve digits"
+    }
+}
